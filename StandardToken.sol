@@ -1,3 +1,5 @@
+pragma solidity ^0.4.18;
+
 contract StandardToken is ERC20, SafeMath {
 
    mapping(address => uint256) balances;
