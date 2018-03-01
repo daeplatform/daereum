@@ -4,7 +4,7 @@ contract Daereum is StandardToken {
    string public name = 'Daereum';
    string public symbol = 'DAER';
    uint public decimals = 8;
-   uint public INITIAL_SUPPLY = 200000000;
+   uint public INITIAL_SUPPLY = 100000000;
 
    function Daereum() public {
      totalSupply = INITIAL_SUPPLY;
