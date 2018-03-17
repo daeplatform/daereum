@@ -1,13 +1,7 @@
-pragma solidity ^0.4.18;
-
-contract Daereum is StandardToken {
-   string public name = 'Daereum';
-   string public symbol = 'DAER';
-   uint public decimals = 8;
-   uint public INITIAL_SUPPLY = 100000000;
-
-   function Daereum() public {
-     totalSupply = INITIAL_SUPPLY;
-     balances[msg.sender] = INITIAL_SUPPLY;
-   }
-}
+import './ERC20Basic.sol';
+import './SafeMath.sol';
+import './BasicToken.sol';
+import './ERC20.sol';
+import './StandardToken.sol';
+import './BurnableToken.sol';
+import './Daereum.sol';
