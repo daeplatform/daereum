@@ -1,8 +1,9 @@
-# Daecoin
+# Daereum
 
 https://daeplatform.net/daereum
 
 Copyright (c) Ethereum Developers
+
 Copyright (c) 2017-2018 Dae Platform Developers
 
 What is Daereum?
